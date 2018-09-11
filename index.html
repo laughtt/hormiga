@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hormiga</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fullpage.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="background-color: gray;">
+
+    <!--  MENU PRINCIPAL --><!--  MENU PRINCIPAL --><!--  MENU PRINCIPAL --><!--  MENU PRINCIPAL -->
+    <ul id="menu" class="menu">
+        <li data-menuanchor="contactenos"><a href="#contactenos">CONTÁCTENOS</a></li>
+        <li data-menuanchor="nosotros"><a href="#nosotros">NOSOTROS</a></li>
+        <li data-menuanchor="disenoweb"><a href="#disenoweb">DISEÑO GRÁFICO/WEB</a></li>
+        <li data-menuanchor="señaletica"><a href="#señaletica">SEÑALÉTICAS</a></li>
+        <li data-menuanchor="gigantografia"><a href="#gigantografia">GIGANTOGRAFÍA</a></li>
+        <li data-menuanchor="impresion"><a href="#impresion">IMPRESIÓN A COLOR </a></li>
+        <li data-menuanchor="home"></li>
+    </ul>
+    <!--  MENU IZQUIERDO --> <!--  MENU IZQUIERDO --> <!--  MENU IZQUIERDO --> <!--  MENU IZQUIERDO --> <!--  MENU IZQUIERDO -->   
+    <ul class="preview-extensions-menu" id="menu2">
+        <li class="preview-more-extensions"><a>
+          <span><img src="background/iconos/iconos-03.png">  informes@hormigacomunicacion.com</span><br>
+          <span><img src="background/iconos/iconos-04.png">  (01)279-6783  /  999-300-651</span>
+      </a></li>
+  </ul>
+  <!--  MENU RESPOSNIVE -->   <!--  MENU RESPOSNIVE -->   <!--  MENU RESPOSNIVE -->   <!--  MENU RESPOSNIVE -->   <!--  MENU RESPOSNIVE -->
+  <div class="btn-group menu3" style="position: fixed;float: right;z-index: 100;right: 0; padding:9px 14px;">
+    <button type="button" class="btn btn-default dropdown-toggle" style="padding: 5px 10px;font-weight: bold;color: black;font-size: 25px;background-color: transparent;" data-toggle="dropdown">&#8801;
+    </button>
+    <ul class="dropdown-menu menu " role="menu">
+        <li data-menuanchor="home"><a href="#home">INICIO</a></li>
+        <li data-menuanchor="impresion"><a href="#impresion">IMPRESIÓN A COLOR </a></li>
+        <li data-menuanchor="gigantografia"><a href="#gigantografia">GIGANTOGRAFÍA</a></li>
+        <li data-menuanchor="señaletica"><a href="#señaletica">SEÑALÉTICAS</a></li>
+        <li data-menuanchor="disenoweb"><a href="#disenoweb">DISEÑO GRÁFICO/WEB</a></li>
+        <li data-menuanchor="nosotros"><a href="#nosotros">NOSOTROS</a></li>
+        <li data-menuanchor="contactenos"><a href="#contactenos">CONTÁCTENOS</a></li>
+    </ul>
+</div>
+
+
+<!--  FORM 1 --><!--  FORM 1 --><!--  FORM 1 --><!--  FORM 1 --><!--  FORM 1 -->
+<div class="foco">
+    <div class="hijo">
+        <img src="background/iconos/iconos-1.png" data-toggle="modal" data-target="#myModal2" class="img-responsive">
+    </div>
+</div>
+
+
+
+
+<div id="myModal2" class="modal fade " role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" style="border:0px">
+                <button type="button" class="close" data-dismiss="modal" style="color:white;font-size: 20px;">&times;</button>
+            </div>
+            <div class="modal-body" style="height: 400px; ">
+                <form autocomplete="off" accept-charset="utf-8" id="form_second" onSubmit="form_second(); return false">
+                    <div class="row">
+                        <div class="form-group s col-xs-6" align="left">
+                            <label for="nombre" class="col-xs-12 control-label" style="color:white">Anchura</label>
+                            <div class="col-sm-12">
+                                <input type="number" class="form-control" name="anchura" id="anchura"   required>
+                            </div>
+                        </div>
+                        <div class="form-group s col-xs-6" align="left">
+                            <label for="email" class="col-xs-12 control-label" style="color:white">Altura</label>
+                            <div class="col-sm-12">
+                                <input type="number" class="form-control" name="altura" id="altura"  required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group s col-xs-12" align="left" style="padding: 0px;">
+                        <label for="Pedido" class="col-xs-12 control-label" style="color:white">Material</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" name="material" id="material"  required>
+                        </div>
+                    </div>
+                    <div class="form-group s col-xs-12" align="left" style="padding: 0px;">
+                        <label for="nombre" class="col-xs-12 control-label" name="observaciones" style="color:white">Observaciones</label>
+                        <div class="col-sm-12">
+                            <textarea name="observaciones" id="observaciones" class="form-control col-xs-12"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="form-group s col-xs-6" align="left">
+                            <label for="nombre" class="col-xs-12 control-label" style="color:white;">Total Estimado:</label>
+                            <label for="nombre" class="col-xs-12 control-label" style="color:white;font-size: 10px;">El precio colocado podriar variar según su cantidad y tiempo de entrega</label>
+                        </div>
+                        <div class="form-group s col-xs-6" align="left">
+                            <div class="col-sm-12">
+                                <input name="estimado" type="number" id="estimado" class="form-control col-xs-12" style="height: 50px !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group s col-xs-12" align="center">
+                        <div class="col-sm-12">
+                            <button type="submit" id="form_2" class="btn btn-success" style="transition:0.5s;font-size: 20px;font-weight: bold;background-color: rgba(241, 207, 0, 1);border:1px solid rgba(241, 207, 0, 1);color: black; ">Enviar Mensaje</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="fullpage">
+    <div class="section " id="section0">
+        <div class="large-header" style="top: 0;">
+            <canvas class="demo-canvas" width="100%" height="100%"></canvas>
+        </div>
+        <div class="fp-bg" id="bg_1">
+        </div>
+        <div class="fp-bg" id="bg_2">
+        </div>
+        <div class="fp-bg" id="bg_3">
+        </div>
+        <div class="intro">
+            <div class="container">
+                <div class="row" align="center">
+                    <div class="intro home" align="center">
+                        <img src="background/logo.png" class="img-responsive">
+                        <h1>BIENVENIDOS</h1>
+                        <br>
+                        <div align="center">
+                            <p>Somos un <b>estudio creativo</b> dedicado a mejorar tu producto o servicio por medio de la comunicación publicitaria.</p>
+                            <br>
+                            <p>En <b>Hormiga Comunicación</b> ofrecemos un servicio de estudio estratégico apoyado en diferentes soportes publicitarios con el fin de alcanzar y superar tus objetivos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Servicio de Impresión a Color Servicio de Impresión a Color Servicio de Impresión a Color Servicio de Impresión a Color-->
+<div class="section" id="section1">
+    <div class="fp-bg" id="bg_1">
+        <div class="large-header">
+            <canvas class="demo-canvas" width="100%" height="100%"></canvas>
+        </div>
+    </div>
+
+    <div class="intro">
+
+        <div class="impresion" >
+            <div class="col-xs-12 " align="right" style="padding: 0px 30px;">
+                <h1>Servicio de Impresión a Color</h1>
+                <div style="clear: both;"> </div> 
+                <div class="col-lg-7  col-md-6 col-sm-3 col-xs-12"> </div>
+                <div class="col-lg-5 col-md-6 col-sm-9 col-xs-12" style="padding: 0px !important;"> 
+                <p>Tomando siempre en cuenta la calidad de impresión en distintos tipos de papeles y gramajes con los mejores precios del mercado.</p>
+                </div>
+            </div>
+        </div>
+    
+     <div class="imagenes" align="center">
+
+
+        <div class="col-xs-12" style="padding: 0px 30px;" >
+                <div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_1">
+                    <div class="back">
+                      <div class="back_centro">
+                          <h1>TARJETAS <br> PERSONALES</h1>
+                      </div>
+                  </div>
+
+                  <div class="front">
+                    <img src="background/galeria/GALERIA-01.jpg" class="img-responsive">
+                </div>
+
+            </div>
+
+            <div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_2">
+               <div class="back">
+                  <div class="back_centro">
+                      <h1>VOLANTES <br> FLYERS</h1>
+                  </div>
+              </div>
+
+              <div class="front">
+                <img src="background/galeria/GALERIA-03.jpg" class="img-responsive">
+            </div>
+        </div>
+
+        <div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_3">
+            <div class="back">
+              <div class="back_centro">
+                  <h1>ADHESIVOS <br> ETIQUETAS</h1>
+              </div>
+          </div>
+
+          <div class="front">
+            <img src="background/galeria/GALERIA-05.jpg" class="img-responsive">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_4">
+        <div class="back">
+          <div class="back_centro">
+              <h1>PAPEL <br> MEMBRETADO</h1>
+          </div>
+      </div>
+
+      <div class="front">
+        <img src="background/galeria/GALERIA-08.png" class="img-responsive">
+    </div>
+</div>
+
+<div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_5" >
+    <div class="back">
+      <div class="back_centro">
+          <h1>CALENDARIOS</h1>
+      </div>
+  </div>
+
+  <div class="front">
+    <img src="background/galeria/GALERIA-06.png" class="img-responsive">
+</div>
+</div>
+
+ </div>
+
+<div style="clear: both;"></div>
+
+
+<div class="col-xs-12" style="padding: 0px 30px;" >
+<div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_6">
+    <div class="back">
+      <div class="back_centro">
+          <h1>CATALOGOS</h1>
+      </div>
+  </div>
+
+  <div class="front">
+    <img src="background/galeria/GALERIA-09.jpg" class="img-responsive">
+</div>
+</div>
+
+<div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_7">
+   <div class="back">
+      <div class="back_centro">
+          <h1>BROCHURE</h1>
+      </div>
+  </div>
+
+  <div class="front">
+    <img src="background/galeria/GALERIA-11.jpg" class="img-responsive">
+</div>
+</div>
+<div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_8">
+    <div class="back">
+      <div class="back_centro">
+          <h1>TRIPTICOS <br> DIPTICOS</h1>
+      </div>
+  </div>
+  
+  <div class="front">
+    <img src="background/galeria/GALERIA-13.jpg" class="img-responsive" >
+</div>
+</div>
+<div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_9">
+    <div class="back">
+      <div class="back_centro">
+          <h1>FOLDER <br> PUBLICITARIO</h1>
+      </div>
+  </div>
+  
+  <div class="front">
+    <img src="background/galeria/GALERIA-15.jpg" class="img-responsive">
+</div>
+</div>
+<div class="col-sm-2 col-xs-2 img_hover" align="center" id="ab_10">
+    <div class="back">
+      <div class="back_centro">
+          <h1>MERCHANDISING</h1>
+      </div>
+  </div>
+
+  <div class="front">
+    <img src="background/galeria/GALERIA-02.png" class="img-responsive">
+</div>
+</div>
+</div>
+
+
+</div>
+
+<div class="efecto_abajo">
+
+
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- Gigantografías Gigantografías Gigantografías vGigantografías Gigantografías -->
+
+<div class="section" id="section2">
+    <div class="fp-bg" id="bg_1">
+        <div class="large-header">
+            <canvas class="demo-canvas" width="100%" height="100%"></canvas>
+        </div>
+    </div>
+    <div class=" col-lg-12 intro gigantografia" align="left">
+        <h1>Gigantografías</h1>
+        <div class="row" style="padding: 0">
+            <div class="col-lg-5 col-md-7 col-sm-10 col-xs-12 quitar_padding" style="clear: both;padding-right: 50px;transition: 0.5;">
+                <br>
+                <p>Tomando siempre en cuenta la calidad de impresión en distintos tipos de papeles y gramajes con los mejores precios del mercado.</p>
+            </div>
+        </div>
+        <div class="col-lg-12" style="padding: 0;">
+            <br>
+            <h5 id="1" style="cursor: pointer">Banner</h5>
+            <h5 id="2" style="cursor: pointer">Banner Blackaout</h5>
+            <h5 id="3" style="cursor: pointer">Vinil</h5>
+            <h5 id="4" style="cursor: pointer">Vinil Blackaout</h5>
+            <h5 id="5" style="cursor: pointer">Microperforador</h5>
+            <h5 id="6" style="cursor: pointer">Blacklight</h5>
+        </div>
+    </div>
+    <div class="efecto_lateral" id="fuera_" style="height: 100vh;position: absolute; width: 0px;z-index: 99999999999 !important ;top:0;
+    background-color: rgba(241, 207, 0, 1) !important;">
+    <div class="data" style="height: 40vh !important">
+        <h1 class="p_titulo"></h1>
+        <p class="p_descripcion"></p>
+        <p class="p_list">
+        </p>
+        <div align="center" class="btn_regresar" style="bottom: 0;position: absolute;text-align: center;width: 520px;cursor: pointer;
+        margin-bottom: 20px">
+    </div>
+</div>
+</div>
+
+</div>
+
+
+<!-- SEÑALETICAS   SEÑALETICAS  SEÑALETICAS  SEÑALETICAS  SEÑALETICAS  SEÑALETICAS  SEÑALETICAS  SEÑALETICAS -->
+<div class="section" id="section3_0">
+    <div class="fp-bg" id="bg_1">
+        <div class="large-header">
+            <canvas class="demo-canvas" width="100%" height="100%"></canvas>
+        </div>
+    </div>
+    <div class="col-lg-7 col-md-6 col-sm-5" align="right">
+
+    </div>
+    <div class="intro col-lg-5 col-md-6 col-sm-7 sena" align="right">
+       <h1>Señaléticas</h1>
+       <div style="clear: both;"></div>
+       <div align="left">
+           <p>Señales de seguridad para centros y locales de trabajos!
+            ofrece la información necesaria, en situaciones de emergencia que faciliten a los trabajadores y visitantes la localización e identificación del medio e instalaciones de protección, evacuación , emergencia o primeros auxilios en caso de un incendio, desastre natural o prevenir de algun peligro. <br><br>
+
+        En distintos tipo de materiales y formatos:</p>
+        <p class="list">
+            · Celtex <br>
+            · Acrilicas <br>
+            · Vinil <br>
+            · Fotoluminiscentes <br>
+            · Vidro <br>
+            · Otros! <br>
+        </p>
+    </div>
+</div>
+
+</div>
+
+
+<!-- DISEÑO GRAFICO DISEÑO GRAFICO DISEÑO GRAFICO DISEÑO GRAFICO DISEÑO GRAFICO DISEÑO GRAFICO DISEÑO GRAFICO -->
+<div class="section" id="section3">
+    <div class="fp-bg" id="bg_1">
+        <div class="large-header">
+            <canvas class="demo-canvas" width="100%" height="100%"></canvas>
+        </div>
+    </div>
+    <div class=" col-lg-12 intro diseÃ±o" align="left">
+        <h1>Diseño Gráfico/Web</h1>
+        <div class="row" style="padding: 0">
+            <div class="col-lg-5 col-md-7 col-sm-10 col-xs-12" style="clear: both;">
+                <br>
+                <p>SOLUCIONES WEB Pensada para Empresas con distintos tipos de recursos</p>
+            </div>
+        </div>
+        <div class="col-lg-12" style="padding: 0">
+            <br>
+            <span><img src="background/iconos/checked.png"  style="background-color: white;border-radius: 55%"> EMPRENDIMIENTOS</span>
+            <br>
+            <span><img src="background/iconos/checked.png"  style="background-color: white;border-radius: 55%"> PYMES</span>
+            <br>
+            <span><img src="background/iconos/checked.png"  style="background-color: white;border-radius: 55%"> CORPORACIONES</span>
+        </div>
+    </div>
+    <div align="left" class="intro  left col-lg-5 col-md-7 col-sm-10 col-xs-12 " style="padding-left:30px">
+        <span>
+         INCLUYE:  DOMINIO + HOSTING BÁSICO + DISEÑO WEB HTML5 RESPONSIVE
+     </span>
+     <p>
+        Nuestro Pack <b>"BÁSICO"</b> le permite disponer de un sitio web para tener presencia en la red, captar nuevos clientes y ampliar sus contactos dándose a conocer en general, pero tambien facilitando tareas a colaboradores, clientes y proveedores. </p>
+        <p>
+            Incluye todo lo necesario: Diseño Web, Alojamiento, Nombre de Dominio y mantenimiento integral.
+        </p>
+    </div>
+</div>
+
+<!--  NOSOTROS NOSOTROS NOSOTROS NOSOTROS  NOSOTROS NOSOTROS NOSOTROS NOSOTROS -->
+<div class="section" id="section4">
+    <div class="fp-bg" id="bg_1">
+        <div class="large-header">
+            <canvas class="demo-canvas" width="100%" height="100%"></canvas>
+        </div>
+    </div>
+    <div class="col-lg-12 intro nosotros" align="left" style="padding: 0 80px;">
+
+        <span style="margin-top: 0px;">Nosotros</span> <img class="bajar_img" src="background/iconos/hormiga-i.png" width="100px"><br><br>
+    </div>
+    <div class="col-lg-12 intro nosotros bg" align="left" style="padding: 0 80px;" >
+        <p>Somos una Agencia Creativa de publicidad y marketing enfocados en brindarle soluciones integrales para el fortalecimiento de su marca.</p>
+    </div>
+    <div class="col-lg-12 intro nosotros" align="left" style="padding: 0 80px;">
+        <h3>¿ Que Hacemos ?</h3>
+    </div>
+    <div class="col-lg-12 intro nosotros bg" align="left" style="margin-bottom: 100px;" style="padding: 0 80px;">
+        <h2>INNOVAMOS  -  EXPERIMENTAMOS   -   PERFECCIONAMOS</h2>
+    </div>
+</div>
+
+<!-- CONTACTENOS  CONTACTENOS CONTACTENOS CONTACTENOS CONTACTENOS CONTACTENOS CONTACTENOS  -->
+
+<div class="section" id="section5">
+    <div class="fp-bg" id="bg_1">
+        <div class="cambiar" style="width: 50% ;height: 100%; background-color: rgba(241, 207, 0, 0.9);position: absolute;
+        transition: 0.5s,"></div>
+        <div class="large-header">
+            <canvas class="demo-canvas" width="100%" height="100%"></canvas>
+        </div>
+
+    </div>
+    <div class="intro ">
+      
+      <div class="col-sm-6 contacto_left" align="center">
+        <h2 >Siéntete libre de mantenerte en contacto <br>Cualquier forma CONVIENE para ti...</h2><br>
+        <div class="p">
+            <p>Sientete Libre de hacernos cualquier consulta, duda o inquietud, sin problema le haremos llegar una respuesta en conjunto a una solucion y si es posible pautar una reunion. </p>
+            <p class="margin_top">Direccion: </p>
+            <p>Av. Alameda del corregidor 2490 Oficina 201 - La Molina - Lima </p>
+            <p class="margin_top">Teléfono: </p>
+            <p>01 279-6783 / Cel. 999-300-651</p>
+        </div>
+      </div>
+      <div class="col-sm-6 contacto_right" align="center" >
+        <div >
+           <br>
+           <span style="margin-top: 0px;">Contáctenos</span> <img src="background/iconos/hormiga-i.png" width="18%;" 
+           >
+
+       </div><br><br>
+       <form accept-charset="utf-8" autocomplete="off" id="form_first"  onSubmit="form_first(); return false" >
+        <div class="row">
+            <div class="form-group col-xs-6" align="left">
+                <label for="nombre" class="col-xs-12 control-label">Nombre</label>
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" name="nombre" id="nombre" required>
+                </div>
+            </div>
+            <div class="form-group col-xs-6" align="left">
+                <label for="email" class="col-xs-12 control-label">Email</label>
+                <div class="col-sm-12">
+                    <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-xs-12" align="left" style="padding: 0px;">
+            <label for="nombre" class="col-xs-12 control-label">Pedido</label>
+            <div class="col-sm-12">
+                <input type="Pedido" class="form-control" name="pedido" id="pedido" required>
+            </div>
+        </div>
+        <div class="form-group col-xs-12" align="left" style="padding: 0px;">
+            <label for="nombre" class="col-xs-12 control-label">Observaciones</label>
+            <div class="col-sm-12">
+                <textarea name="text_area" rows="5" class="form-control col-xs-12" id="text_area"></textarea>
+            </div>
+        </div>
+        <div class="form-group col-xs-12" align="center"  >
+            <div class="col-sm-12">
+                <button type="submit" id="form1" class="btn btn-default " style="transition:0.5s;font-size: 20px;font-weight: bold;">Enviar Mensaje</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+    </div>
+    <!-- <div class="intro col-sm-6 contacto_left" align="center">
+
+        <h2 >Siéntete libre de mantenerte en contacto <br>Cualquier forma CONVIENE para ti...</h2><br>
+        <div class="p">
+            <p>Sientete Libre de hacernos cualquier consulta, duda o inquietud, sin problema le haremos llegar una respuesta en conjunto a una solucion y si es posible pautar una reunion. </p>
+            <p class="margin_top">Direccion: </p>
+            <p>Av. Alameda del corregidor 2490 Oficina 201 - La Molina - Lima </p>
+            <p class="margin_top">Teléfono: </p>
+            <p>01 279-6783 / Cel. 999-300-651</p>
+        </div>
+    </div>
+    <div class="col-sm-6 contacto_right" align="center" >
+        <div >
+           <br>
+           <span style="margin-top: 0px;">Contáctenos</span> <img src="background/iconos/hormiga-i.png" width="18%;" 
+           >
+
+       </div><br><br>
+       <form accept-charset="utf-8" autocomplete="off" id="form_first"  onSubmit="form_first(); return false" >
+        <div class="row">
+            <div class="form-group col-xs-6" align="left">
+                <label for="nombre" class="col-xs-12 control-label">Nombre</label>
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" name="nombre" id="nombre" required>
+                </div>
+            </div>
+            <div class="form-group col-xs-6" align="left">
+                <label for="email" class="col-xs-12 control-label">Email</label>
+                <div class="col-sm-12">
+                    <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-xs-12" align="left" style="padding: 0px;">
+            <label for="nombre" class="col-xs-12 control-label">Pedido</label>
+            <div class="col-sm-12">
+                <input type="Pedido" class="form-control" name="pedido" id="pedido" required>
+            </div>
+        </div>
+        <div class="form-group col-xs-12" align="left" style="padding: 0px;">
+            <label for="nombre" class="col-xs-12 control-label">Observaciones</label>
+            <div class="col-sm-12">
+                <textarea name="text_area" rows="5" class="form-control col-xs-12" id="text_area"></textarea>
+            </div>
+        </div>
+        <div class="form-group col-xs-12" align="center"  >
+            <div class="col-sm-12">
+                <button type="submit" id="form1" class="btn btn-default " style="transition:0.5s;font-size: 20px;font-weight: bold;">Enviar Mensaje</button>
+            </div>
+        </div>
+    </form>
+</div> -->
+</div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/fullpage.js"></script>
+<script type="text/javascript" src="particle/js.js"></script>
+<script type="text/javascript" src="particle/js_1.js"></script>
+<script type="text/javascript" src="particle/js_2.js"></script>
+<script type="text/javascript" src="particle/js_3.js"></script>
+<script type="text/javascript" src="particle/js_4.js"></script>
+<script type="text/javascript" src="particle/js_5.js"></script>
+<script type="text/javascript" src="particle/js_6.js"></script>
+<script type="text/javascript" src="js.js"></script>
+
+
+</body>
+
+</html>
